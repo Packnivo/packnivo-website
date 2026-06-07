@@ -22,8 +22,10 @@ const schemaMarkup = {
   "description": "India's trusted B2B packaging intermediary connecting businesses with verified packaging manufacturers and suppliers.",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "Third Floor, WZ-57, Village Budhela Vikaspuri",
     "addressLocality": "New Delhi",
     "addressRegion": "Delhi",
+    "postalCode": "110018",
     "addressCountry": "IN"
   },
   "contactPoint": {

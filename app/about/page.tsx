@@ -56,10 +56,11 @@ export default function About() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                                { value: "5 min", label: "Maximum response time to enquiries" },
-                { value: "50+", label: "Verified vendor partners" },
-                { value: "6", label: "Purpose-built solution verticals" },
-              ].map((stat) => (
+  { value: "Pan India", label: "Delivery coverage across all states" },
+  { value: "5 min", label: "Maximum response time to enquiries" },
+  { value: "50+", label: "Verified vendor partners" },
+  { value: "6", label: "Purpose-built solution verticals" },
+].map((stat) => (
                 <div key={stat.label} className="p-6 rounded-2xl text-center" style={{ backgroundColor: "rgba(12,36,72,0.04)" }}>
                   <div className="text-2xl font-bold mb-2" style={{ color: "#0C2448", fontFamily: "Fraunces, serif" }}>{stat.value}</div>
                   <div className="text-sm text-gray-500">{stat.label}</div>

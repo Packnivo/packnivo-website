@@ -26,10 +26,10 @@ const stats = [
 ];
 
 const whyUs = [
-  { title: "Zero Gateway Fees", desc: "Direct bank transfers only. No 2.5% cuts on your payments." },
   { title: "5-Minute Response", desc: "Every enquiry answered within 5 minutes during business hours." },
   { title: "Verified Vendors", desc: "Every vendor risk-scored and quality-verified before onboarding." },
   { title: "GST Compliant", desc: "Auto-generated GST invoices with IRN and QR on every order." },
+  { title: "Pan India Delivery", desc: "We deliver packaging solutions to businesses across all states in India." },
 ];
 
 export default function Home() {

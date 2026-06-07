@@ -15,8 +15,8 @@ export default function Footer() {
             </p>
             <div className="flex gap-4 mt-6">
               <a href="https://wa.me/918368559892" className="text-white/60 hover:text-white transition-colors text-sm font-medium">WhatsApp</a>
-              <a href="https://linkedin.com/company/packnivo" className="text-white/60 hover:text-white transition-colors text-sm font-medium">LinkedIn</a>
-              <a href="https://instagram.com/packnivo" className="text-white/60 hover:text-white transition-colors text-sm font-medium">Instagram</a>
+              <a href="https://www.linkedin.com/company/packnivo-solution-private-limited/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors text-sm font-medium">LinkedIn</a>
+              <a href="https://www.facebook.com/profile.php?id=61590573095006" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors text-sm font-medium">Facebook</a>
             </div>
           </div>
 

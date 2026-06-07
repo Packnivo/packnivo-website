@@ -37,7 +37,7 @@ export default function Contact() {
                   <textarea rows={4} placeholder="Tell us what packaging you need — product type, quantity, budget, timeline..." className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-blue-400 resize-none"></textarea>
                 </div>
                 <button className="w-full py-3 rounded-xl font-semibold text-white text-sm transition-all hover:opacity-90" style={{ backgroundColor: "#C08430" }}>Send Message</button>
-                <p className="text-xs text-gray-400 text-center">We respond within 5 minutes during business hours (Mon–Sat, 9AM–7PM IST)</p>
+                <p className="text-xs text-gray-400 text-center">We respond within 5 minutes during business hours (Mon–Sat, 9AM–8PM IST)</p>
               </div>
             </div>
 
@@ -48,7 +48,7 @@ export default function Contact() {
                   <div className="flex items-center gap-3"><span className="text-lg">📧</span><span>info@packnivo.com</span></div>
                   <div className="flex items-center gap-3"><span className="text-lg">📱</span><span>+91 83685 59892</span></div>
                   <div className="flex items-center gap-3"><span className="text-lg">📍</span><span>New Delhi, India</span></div>
-                  <div className="flex items-center gap-3"><span className="text-lg">🕐</span><span>Mon–Sat, 9AM–7PM IST</span></div>
+                  <div className="flex items-center gap-3"><span className="text-lg">🕐</span><span>Mon–Sat, 9AM–8PM IST</span></div>
                 </div>
               </div>
 

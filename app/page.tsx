@@ -22,7 +22,6 @@ const stats = [
   { value: "500+", label: "Products in Catalogue" },
   { value: "50+", label: "Vendor Partners" },
   { value: "10,000+", label: "Client Capacity" },
-  { value: "₹0", label: "Gateway Fees on B2B" },
 ];
 
 const whyUs = [

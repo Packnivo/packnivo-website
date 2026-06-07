@@ -6,6 +6,10 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Packnivo Solutions — Complete Packaging Solutions",
   description: "India's trusted B2B packaging intermediary. Trade, source, and deliver packaging solutions across all industries.",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({

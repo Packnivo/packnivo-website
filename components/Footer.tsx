@@ -17,6 +17,7 @@ export default function Footer() {
               <a href="https://wa.me/918368559892" className="text-white/60 hover:text-white transition-colors text-sm font-medium">WhatsApp</a>
               <a href="https://www.linkedin.com/company/packnivo-solution-private-limited/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors text-sm font-medium">LinkedIn</a>
               <a href="https://www.facebook.com/profile.php?id=61590573095006" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors text-sm font-medium">Facebook</a>
+              <a href="https://share.google/PJKhcWJPCFXNj6QhM" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors text-sm font-medium">Google</a>
             </div>
           </div>
 

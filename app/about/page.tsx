@@ -56,8 +56,7 @@ export default function About() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: "₹0", label: "Gateway fees on B2B transactions" },
-                { value: "5 min", label: "Maximum response time to enquiries" },
+                                { value: "5 min", label: "Maximum response time to enquiries" },
                 { value: "50+", label: "Verified vendor partners" },
                 { value: "6", label: "Purpose-built solution verticals" },
               ].map((stat) => (

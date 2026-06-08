@@ -38,7 +38,7 @@ const nextConfig: NextConfig = {
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com",
               "img-src 'self' data: blob: https:",
-              "connect-src 'self' https://packnivo-backend.onrender.com https://www.google-analytics.com",
+              "connect-src 'self' https://packnivo-backend.onrender.com https://www.google-analytics.com https://api.web3forms.com",
               "frame-src 'none'",
               "object-src 'none'",
               "base-uri 'self'",

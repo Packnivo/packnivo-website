@@ -89,7 +89,7 @@ export default function ContactPage() {
                   </svg>
                 ),
                 label: "Business hours",
-                value: "Monday – Saturday, 9:00 AM – 6:00 PM IST",
+                value: "Monday – Saturday, 9:00 AM – 8:00 PM IST",
                 href: null,
               },
             ].map(({ icon, label, value, href }) => (

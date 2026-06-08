@@ -31,12 +31,14 @@ const schemaMarkup = {
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91-8368559892",
-    "contactType": "customer service",
+    "contactType": "sales",
+    "areaServed": "IN",
     "availableLanguage": ["English", "Hindi"]
   },
   "sameAs": [
     "https://www.linkedin.com/company/packnivo-solution-private-limited/",
-    "https://www.facebook.com/profile.php?id=61590573095006"
+    "https://www.facebook.com/profile.php?id=61590573095006",
+    "https://share.google/PJKhcWJPCFXNj6QhM"
   ]
 };
 

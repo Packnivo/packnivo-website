@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Packnivo Solutions — Complete Packaging Solutions",
+  title: "Packnivo | Packnivo Solutions Pvt Ltd",
   description: "India's trusted B2B packaging intermediary. Trade, source, and deliver packaging solutions across all industries.",
   icons: {
     icon: "/favicon.ico",

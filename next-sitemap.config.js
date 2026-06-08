@@ -2,5 +2,5 @@
 module.exports = {
   siteUrl: 'https://packnivo.com',
   generateRobotsTxt: true,
-  sitemapSize: 7000,
+  generateIndexSitemap: true,
 }

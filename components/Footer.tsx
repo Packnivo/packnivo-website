@@ -35,11 +35,18 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">Quick Links</h3>
             <ul className="space-y-3">
-              {["Home", "Catalogue", "Solutions", "About Us", "Blog", "Contact"].map((item) => (
-                <li key={item}>
-                  <Link href={`/${item.toLowerCase().replace(" ", "-")}`} className="text-white/70 hover:text-white text-sm transition-colors">{item}</Link>
-                </li>
-              ))}
+              {[
+  { label: "Home", href: "/" },
+  { label: "Catalogue", href: "/catalogue" },
+  { label: "Solutions", href: "/solutions" },
+  { label: "About Us", href: "/about" },
+  { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "/contact" },
+].map((item) => (
+  <li key={item.label}>
+    <Link href={item.href} className="text-white/70 hover:text-white text-sm transition-colors">{item.label}</Link>
+  </li>
+))}
             </ul>
           </div>
 

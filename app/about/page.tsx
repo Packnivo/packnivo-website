@@ -12,11 +12,13 @@ const team = [
 ];
 
 const milestones = [
-  { year: "2024", event: "Packnivo Solutions Pvt Ltd incorporated in New Delhi" },
-  { year: "2024", event: "Six solution verticals defined — PackTrade, PackServe, PackAdvise, PackCommerce, PackMake, PackBridge" },
-  { year: "2024", event: "First vendor network established across corrugated, flexible and rigid packaging" },
-  { year: "2025", event: "Digital platform launched — catalogue, CRM, banking automation" },
-  { year: "2025", event: "Target — 100 active clients across India" },
+  { year: "Before 2026", event: "Key members of our team built strong relationships across India's packaging ecosystem, connecting with manufacturers, converters, suppliers and service providers across multiple packaging categories." },
+  { year: "Before 2026", event: "A reliable vendor network was established across corrugated, flexible, rigid and customized packaging solutions, creating the foundation for a trusted sourcing ecosystem." },
+  { year: "May 2026", event: "Packnivo Solutions Pvt Ltd was incorporated in New Delhi with a vision to simplify packaging procurement and supply-chain management for businesses across India." },
+  { year: "2026", event: "Six specialized solution verticals introduced — PackTrade, PackServe, PackAdvise, PackCommerce, PackMake and PackBridge." },
+  { year: "2026", event: "Digital platform launched to streamline packaging sourcing, supplier discovery, consultation and business operations." },
+  { year: "2026–2027", event: "Expanding our supplier network and customer base to serve businesses across India with reliable, transparent and cost-effective packaging solutions." },
+  { year: "Our Goal", event: "Become India's most trusted packaging ecosystem, connecting brands, manufacturers and service providers through a single technology-driven platform." },
 ];
 
 export default function About() {

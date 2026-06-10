@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Packaging Suppliers in Delhi — How to Find Verified Vendors 2026 | Packnivo",
+  title: "Packaging Suppliers in Delhi â€” How to Find Verified Vendors 2026 | Packnivo",
   description: "Complete guide to finding reliable packaging suppliers in Delhi and NCR. Verified vendor list, price benchmarks, quality checks and procurement tips for Indian businesses.",
   keywords: "packaging suppliers Delhi, packaging vendors Delhi NCR, corrugated box suppliers Delhi, flexible packaging suppliers India, bulk packaging Delhi",
   openGraph: {
-    title: "Packaging Suppliers in Delhi — How to Find Verified Vendors 2026",
+    title: "Packaging Suppliers in Delhi â€” How to Find Verified Vendors 2026",
     description: "Complete guide to finding reliable packaging suppliers in Delhi and NCR.",
     url: "https://packnivo.com/blog/packaging-suppliers-delhi",
     siteName: "Packnivo",
@@ -21,11 +21,11 @@ export default function PackagingSuppliersDelhiBlog() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2 text-sm mb-6">
             <Link href="/blog" className="text-white/60 hover:text-white transition-colors">Blog</Link>
-            <span className="text-white/40">→</span>
+            <span className="text-white/40">â†’</span>
             <span style={{ color: "#C08430" }}>Procurement</span>
           </div>
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight" style={{ fontFamily: "Fraunces, serif" }}>
-            How to Find Reliable Packaging Suppliers in Delhi — Complete Guide 2026
+            How to Find Reliable Packaging Suppliers in Delhi â€” Complete Guide 2026
           </h1>
           <div className="flex items-center gap-6 text-sm text-white/60">
             <span>By Packnivo Team</span>
@@ -40,7 +40,7 @@ export default function PackagingSuppliersDelhiBlog() {
           <div className="prose max-w-none">
 
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Delhi NCR is one of India's largest packaging manufacturing hubs. From corrugated box manufacturers in Noida to flexible packaging converters in Faridabad and rigid container suppliers in Gurgaon — the region has a dense supplier ecosystem. But finding a reliable, quality-consistent and fairly priced supplier is harder than it looks. This guide shows you how.
+              Delhi NCR is one of India's largest packaging manufacturing hubs. From corrugated box manufacturers in Noida to flexible packaging converters in Faridabad and rigid container suppliers in Gurgaon â€” the region has a dense supplier ecosystem. But finding a reliable, quality-consistent and fairly priced supplier is harder than it looks. This guide shows you how.
             </p>
 
             <h2 className="text-2xl font-bold mb-6 mt-12" style={{ color: "#0C2448", fontFamily: "Fraunces, serif" }}>
@@ -53,7 +53,7 @@ export default function PackagingSuppliersDelhiBlog() {
                 { area: "Gurgaon", types: "Premium packaging, custom printed boxes, luxury packaging for FMCG and pharma." },
                 { area: "Bahadurgarh", types: "Paper and board manufacturers, kraft paper, specialty packaging substrates." },
                 { area: "Kundli and Sonepat", types: "Industrial packaging, stretch films, strapping bands, heavy-duty solutions." },
-                { area: "Delhi Industrial Areas", types: "Mixed — small to medium corrugated and flexible packaging units across Wazirpur, Lawrence Road, Udyog Nagar." },
+                { area: "Delhi Industrial Areas", types: "Mixed â€” small to medium corrugated and flexible packaging units across Wazirpur, Lawrence Road, Udyog Nagar." },
               ].map((item) => (
                 <div key={item.area} className="p-5 rounded-xl bg-gray-50 border border-gray-100">
                   <h3 className="font-bold text-sm mb-2" style={{ color: "#0C2448" }}>{item.area}</h3>
@@ -98,7 +98,7 @@ export default function PackagingSuppliersDelhiBlog() {
                 { check: "Credit Terms", how: "New suppliers should be paid advance or against delivery for first 3 orders before extending any credit." },
               ].map((item) => (
                 <div key={item.check} className="p-5 rounded-xl border border-gray-100">
-                  <h3 className="font-semibold text-sm mb-2" style={{ color: "#C08430" }}>✓ {item.check}</h3>
+                  <h3 className="font-semibold text-sm mb-2" style={{ color: "#C08430" }}>âœ“ {item.check}</h3>
                   <p className="text-sm text-gray-600">{item.how}</p>
                 </div>
               ))}
@@ -110,14 +110,14 @@ export default function PackagingSuppliersDelhiBlog() {
             <div className="space-y-3 mb-8">
               {[
                 "No GST registration or refuses to provide GSTIN",
-                "Prices significantly below market — often indicates quality compromise",
+                "Prices significantly below market â€” often indicates quality compromise",
                 "No physical address or only a mobile number",
                 "Asks for full payment before sample approval",
                 "Unable to provide previous client references",
                 "No written agreement or purchase order process",
               ].map((flag, index) => (
                 <div key={index} className="flex items-start gap-3 p-4 rounded-xl bg-red-50">
-                  <span className="text-red-500 font-bold">⚠</span>
+                  <span className="text-red-500 font-bold">âš </span>
                   <p className="text-sm text-gray-700">{flag}</p>
                 </div>
               ))}
@@ -125,7 +125,7 @@ export default function PackagingSuppliersDelhiBlog() {
 
             <div className="rounded-2xl p-8 mt-12 text-center" style={{ backgroundColor: "#0C2448" }}>
               <h3 className="text-xl font-bold text-white mb-3" style={{ fontFamily: "Fraunces, serif" }}>
-                Skip the search — use Packnivo's verified vendor network
+                Skip the search â€” use Packnivo's verified vendor network
               </h3>
               <p className="text-white/70 text-sm mb-6">
                 We have already done the verification work for 50+ packaging suppliers across Delhi NCR. Send us your requirement and get quotes from pre-vetted vendors within 24 hours.

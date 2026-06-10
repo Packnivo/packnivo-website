@@ -1,21 +1,21 @@
 import Link from "next/link";
 
 const solutions = [
-  { name: "PackTrade", icon: "🔄", description: "Trading, buying, selling, importing and exporting packaging materials at the best prices." },
-  { name: "PackServe", icon: "⚙️", description: "End-to-end packaging execution — from sourcing to final delivery at your doorstep." },
-  { name: "PackAdvise", icon: "💡", description: "Expert consultancy on packaging design, cost reduction and sustainability strategies." },
-  { name: "PackCommerce", icon: "🛒", description: "B2B, B2C and e-commerce packaging solutions tailored for your business model." },
-  { name: "PackMake", icon: "🏭", description: "Manufacturing collaboration — we connect you with the right production partners." },
-  { name: "PackBridge", icon: "🤝", description: "Agency, broker and partner network for cross-border and specialty packaging needs." },
+  { name: "PackTrade", icon: "ðŸ”„", description: "Trading, buying, selling, importing and exporting packaging materials at the best prices." },
+  { name: "PackServe", icon: "âš™ï¸", description: "End-to-end packaging execution â€” from sourcing to final delivery at your doorstep." },
+  { name: "PackAdvise", icon: "ðŸ’¡", description: "Expert consultancy on packaging design, cost reduction and sustainability strategies." },
+  { name: "PackCommerce", icon: "ðŸ›’", description: "B2B, B2C and e-commerce packaging solutions tailored for your business model." },
+  { name: "PackMake", icon: "ðŸ­", description: "Manufacturing collaboration â€” we connect you with the right production partners." },
+  { name: "PackBridge", icon: "ðŸ¤", description: "Agency, broker and partner network for cross-border and specialty packaging needs." },
 ];
 
 const categories = [
-  { name: "Corrugated Boxes", count: "12 Products", icon: "📦" },
-  { name: "Flexible Packaging", count: "10 Products", icon: "🎁" },
-  { name: "Rigid Packaging", count: "8 Products", icon: "🏺" },
-  { name: "Industrial Packaging", count: "9 Products", icon: "🔧" },
-  { name: "Eco-Friendly", count: "7 Products", icon: "🌿" },
-  { name: "Custom Packaging", count: "14 Products", icon: "✨" },
+  { name: "Corrugated Boxes", count: "12 Products", icon: "ðŸ“¦" },
+  { name: "Flexible Packaging", count: "10 Products", icon: "ðŸŽ" },
+  { name: "Rigid Packaging", count: "8 Products", icon: "ðŸº" },
+  { name: "Industrial Packaging", count: "9 Products", icon: "ðŸ”§" },
+  { name: "Eco-Friendly", count: "7 Products", icon: "ðŸŒ¿" },
+  { name: "Custom Packaging", count: "14 Products", icon: "âœ¨" },
 ];
 
 const stats = [
@@ -51,7 +51,7 @@ export default function Home() {
               <span style={{ color: "#C08430" }}>Business Forward</span>
             </h1>
             <p className="text-white/70 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl">
-              Packnivo sits between you and your packaging vendors — sourcing, negotiating, executing and delivering so you can focus on your core business.
+              Packnivo sits between you and your packaging vendors â€” sourcing, negotiating, executing and delivering so you can focus on your core business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/catalogue" className="px-8 py-4 rounded-xl font-semibold text-base text-center text-white transition-all hover:opacity-90" style={{ backgroundColor: "#C08430" }}>
@@ -84,7 +84,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#0C2448", fontFamily: "Fraunces, serif" }}>Six Solutions. One Partner.</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Every packaging need your business has — we have built a dedicated solution for it.</p>
+            <p className="text-gray-600 max-w-2xl mx-auto">Every packaging need your business has â€” we have built a dedicated solution for it.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {solutions.map((solution) => (
@@ -141,7 +141,7 @@ export default function Home() {
                 <span style={{ color: "#C08430" }}>20%</span>
               </h2>
               <p className="text-white/70 mb-8 leading-relaxed">
-                Send us your last packaging invoice. We will find you a better price — or tell you honestly that you are getting a good deal.
+                Send us your last packaging invoice. We will find you a better price â€” or tell you honestly that you are getting a good deal.
               </p>
               <Link href="/contact" className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-white transition-all hover:opacity-90" style={{ backgroundColor: "#C08430" }}>
                 Send Your Invoice

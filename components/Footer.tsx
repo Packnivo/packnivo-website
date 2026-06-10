@@ -11,7 +11,7 @@ export default function Footer() {
               <Image src="/logo.png" alt="Packnivo Solutions Pvt Ltd" width={140} height={45} className="h-10 w-auto" />
             </div>
             <p className="text-white/80 text-sm leading-relaxed max-w-sm">
-              India's trusted B2B packaging intermediary. We connect businesses with the right packaging solutions — from trading to manufacturing collaboration.
+              India's trusted B2B packaging intermediary. We connect businesses with the right packaging solutions â€” from trading to manufacturing collaboration.
             </p>
             <div className="flex gap-5 mt-6">
               <a href="https://wa.me/918368559892" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors" aria-label="Contact Packnivo on WhatsApp">
@@ -55,13 +55,13 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-white/70">
               <li>info@packnivo.com</li>
               <li>+91 83685 59892</li>
-              <li>Third Floor, WZ-57, Village Budhela Vikaspuri, New Delhi — 110018</li>
+              <li>Third Floor, WZ-57, Village Budhela Vikaspuri, New Delhi â€” 110018</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-white/60 text-sm">© 2026 Packnivo Solutions Pvt Ltd. All rights reserved.</p>
+          <p className="text-white/60 text-sm">Â© 2026 Packnivo Solutions Pvt Ltd. All rights reserved.</p>
           <div className="flex flex-col md:flex-row gap-4 text-white/60 text-xs text-center">
             <span>CIN: U82920DC2026PTC471889</span>
             <span>GSTIN: 07AARCP1239N1ZU</span>

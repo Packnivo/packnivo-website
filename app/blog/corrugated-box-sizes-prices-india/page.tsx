@@ -21,11 +21,11 @@ export default function CorrugatedBoxBlog() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2 text-sm mb-6">
             <Link href="/blog" className="text-white/60 hover:text-white transition-colors">Blog</Link>
-            <span className="text-white/40">→</span>
+            <span className="text-white/40">â†’</span>
             <span style={{ color: "#C08430" }}>Product Guide</span>
           </div>
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight" style={{ fontFamily: "Fraunces, serif" }}>
-            Corrugated Box Sizes and Prices in India — Complete Guide 2026
+            Corrugated Box Sizes and Prices in India â€” Complete Guide 2026
           </h1>
           <div className="flex items-center gap-6 text-sm text-white/60">
             <span>By Packnivo Team</span>
@@ -40,7 +40,7 @@ export default function CorrugatedBoxBlog() {
           <div className="prose max-w-none">
 
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Corrugated boxes are the most widely used packaging material in India — from e-commerce shipments to industrial goods. Choosing the right size, grade and supplier can save your business significant costs. This guide covers standard sizes, pricing benchmarks and what to look for when buying corrugated boxes in India.
+              Corrugated boxes are the most widely used packaging material in India â€” from e-commerce shipments to industrial goods. Choosing the right size, grade and supplier can save your business significant costs. This guide covers standard sizes, pricing benchmarks and what to look for when buying corrugated boxes in India.
             </p>
 
             <h2 className="text-2xl font-bold mb-6 mt-12" style={{ color: "#0C2448", fontFamily: "Fraunces, serif" }}>
@@ -51,19 +51,19 @@ export default function CorrugatedBoxBlog() {
                 <thead>
                   <tr style={{ backgroundColor: "#0C2448" }}>
                     <th className="text-white text-left px-4 py-3 font-semibold">Size Name</th>
-                    <th className="text-white text-left px-4 py-3 font-semibold">Dimensions (L×W×H cm)</th>
+                    <th className="text-white text-left px-4 py-3 font-semibold">Dimensions (LÃ—WÃ—H cm)</th>
                     <th className="text-white text-left px-4 py-3 font-semibold">Common Use</th>
                     <th className="text-white text-left px-4 py-3 font-semibold">MOQ</th>
                   </tr>
                 </thead>
                 <tbody>
                   {[
-                    { size: "Small", dims: "20×15×10", use: "Books, small electronics, cosmetics", moq: "500 pcs" },
-                    { size: "Medium", dims: "30×20×15", use: "Apparel, shoes, FMCG", moq: "500 pcs" },
-                    { size: "Large", dims: "45×30×25", use: "Home appliances, bulk FMCG", moq: "250 pcs" },
-                    { size: "Extra Large", dims: "60×40×40", use: "Heavy machinery parts, furniture", moq: "200 pcs" },
-                    { size: "E-commerce Standard", dims: "25×20×12", use: "Amazon, Flipkart shipments", moq: "500 pcs" },
-                    { size: "Pizza Box Style", dims: "30×30×5", use: "Food delivery, flat items", moq: "1000 pcs" },
+                    { size: "Small", dims: "20Ã—15Ã—10", use: "Books, small electronics, cosmetics", moq: "500 pcs" },
+                    { size: "Medium", dims: "30Ã—20Ã—15", use: "Apparel, shoes, FMCG", moq: "500 pcs" },
+                    { size: "Large", dims: "45Ã—30Ã—25", use: "Home appliances, bulk FMCG", moq: "250 pcs" },
+                    { size: "Extra Large", dims: "60Ã—40Ã—40", use: "Heavy machinery parts, furniture", moq: "200 pcs" },
+                    { size: "E-commerce Standard", dims: "25Ã—20Ã—12", use: "Amazon, Flipkart shipments", moq: "500 pcs" },
+                    { size: "Pizza Box Style", dims: "30Ã—30Ã—5", use: "Food delivery, flat items", moq: "1000 pcs" },
                     { size: "Custom", dims: "As required", use: "Any specific product", moq: "500 pcs" },
                   ].map((row, index) => (
                     <tr key={index} className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}>
@@ -95,12 +95,12 @@ export default function CorrugatedBoxBlog() {
                 </thead>
                 <tbody>
                   {[
-                    { type: "Standard Single Wall", gsm: "150-180 GSM", price: "₹8 — ₹15", qty: "500+ pcs" },
-                    { type: "Medium Single Wall", gsm: "180-220 GSM", price: "₹12 — ₹22", qty: "500+ pcs" },
-                    { type: "Heavy Duty Single Wall", gsm: "220-300 GSM", price: "₹18 — ₹35", qty: "250+ pcs" },
-                    { type: "Double Wall", gsm: "300-450 GSM", price: "₹35 — ₹65", qty: "250+ pcs" },
-                    { type: "Custom Printed Single Wall", gsm: "180-220 GSM", price: "₹18 — ₹40", qty: "500+ pcs" },
-                    { type: "Custom Printed Double Wall", gsm: "300+ GSM", price: "₹45 — ₹90", qty: "250+ pcs" },
+                    { type: "Standard Single Wall", gsm: "150-180 GSM", price: "â‚¹8 â€” â‚¹15", qty: "500+ pcs" },
+                    { type: "Medium Single Wall", gsm: "180-220 GSM", price: "â‚¹12 â€” â‚¹22", qty: "500+ pcs" },
+                    { type: "Heavy Duty Single Wall", gsm: "220-300 GSM", price: "â‚¹18 â€” â‚¹35", qty: "250+ pcs" },
+                    { type: "Double Wall", gsm: "300-450 GSM", price: "â‚¹35 â€” â‚¹65", qty: "250+ pcs" },
+                    { type: "Custom Printed Single Wall", gsm: "180-220 GSM", price: "â‚¹18 â€” â‚¹40", qty: "500+ pcs" },
+                    { type: "Custom Printed Double Wall", gsm: "300+ GSM", price: "â‚¹45 â€” â‚¹90", qty: "250+ pcs" },
                   ].map((row, index) => (
                     <tr key={index} className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}>
                       <td className="px-4 py-3 text-gray-700">{row.type}</td>
@@ -157,7 +157,7 @@ export default function CorrugatedBoxBlog() {
                 Get the best corrugated box prices in India
               </h3>
               <p className="text-white/70 text-sm mb-6">
-                Send us your box specifications — size, GSM, quantity and delivery location. We will get you competitive quotes from verified manufacturers within 24 hours.
+                Send us your box specifications â€” size, GSM, quantity and delivery location. We will get you competitive quotes from verified manufacturers within 24 hours.
               </p>
               <Link href="/contact" className="inline-flex items-center gap-2 px-8 py-3 rounded-xl font-semibold text-white transition-all hover:opacity-90" style={{ backgroundColor: "#C08430" }}>
                 Get Quotes Now

@@ -55,7 +55,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-white/70">
               <li>info@packnivo.com</li>
               <li>+91 83685 59892</li>
-              <li>Third Floor, WZ-57, Village Budhela Vikaspuri, New Delhi â€” 110018</li>
+              <li>Third Floor, WZ-57, Village Budhela Vikaspuri, New Delhi - 110018</li>
             </ul>
           </div>
         </div>

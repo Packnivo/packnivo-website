@@ -11,7 +11,7 @@ export default function Footer() {
               <Image src="/logo.png" alt="Packnivo Solutions Pvt Ltd" width={140} height={45} className="h-10 w-auto" />
             </div>
             <p className="text-white/80 text-sm leading-relaxed max-w-sm">
-              India's trusted B2B packaging intermediary. We connect businesses with the right packaging solutions â€” from trading to manufacturing collaboration.
+              India's trusted B2B packaging intermediary. We connect businesses with the right packaging solutions, from trading to manufacturing collaboration.
             </p>
             <div className="flex gap-5 mt-6">
               <a href="https://wa.me/918368559892" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors" aria-label="Contact Packnivo on WhatsApp">

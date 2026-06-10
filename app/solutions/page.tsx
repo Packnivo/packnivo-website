@@ -1,3 +1,10 @@
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Packaging Solutions | Packnivo Solutions Pvt Ltd",
+  description: "Explore Packnivo's end-to-end packaging solutions — sourcing, procurement, quality checks, and pan India delivery for businesses of all sizes.",
+}
+
 import Link from "next/link";
 
 const solutions = [

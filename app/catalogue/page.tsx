@@ -1,3 +1,10 @@
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Product Catalogue | Packnivo Solutions Pvt Ltd",
+  description: "Browse Packnivo's packaging catalogue — boxes, tapes, bubble wrap, stretch film, and 60+ products sourced from verified Indian manufacturers.",
+}
+
 import Link from "next/link";
 
 const products = [

@@ -1,3 +1,10 @@
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About Us | Packnivo Solutions Pvt Ltd",
+  description: "Learn about Packnivo — India's trusted B2B packaging intermediary. Meet our mission, values, and the team connecting businesses with verified packaging suppliers pan India.",
+}
+
 import Link from "next/link";
 
 const values = [

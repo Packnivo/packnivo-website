@@ -1,11 +1,11 @@
 import type { Metadata } from "next"
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Packaging Insights Blog | Packnivo Solutions Pvt Ltd",
   description: "Packaging tips, industry trends, and procurement advice for Indian businesses - from the Packnivo team.",
 }
 
-import Link from "next/link";
 
 const posts = [
   {

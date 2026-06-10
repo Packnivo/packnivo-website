@@ -66,6 +66,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${fraunces.variable} ${plusJakarta.variable}`}>
       <head>
+        <meta charSet="utf-8" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}

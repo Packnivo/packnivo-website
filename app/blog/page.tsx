@@ -1,8 +1,15 @@
-﻿import Link from "next/link";
+﻿import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Packaging Insights Blog | Packnivo Solutions Pvt Ltd",
+  description: "Packaging tips, industry trends, and procurement advice for Indian businesses - from the Packnivo team.",
+}
+
+import Link from "next/link";
 
 const posts = [
   {
-    title: "GST on Packaging Materials in India Ã¢ÂÂ Complete Guide 2026",
+    title: "GST on Packaging Materials in India - Complete Guide 2026",
     category: "GST & Compliance",
     date: "June 2026",
     read: "8 min read",
@@ -10,7 +17,7 @@ const posts = [
     href: "/blog/gst-on-packaging-materials-india",
   },
   {
-    title: "Corrugated Box Sizes and Prices in India Ã¢ÂÂ Complete Guide 2026",
+    title: "Corrugated Box Sizes and Prices in India - Complete Guide 2026",
     category: "Product Guide",
     date: "June 2026",
     read: "7 min read",
@@ -18,7 +25,7 @@ const posts = [
     href: "/blog/corrugated-box-sizes-prices-india",
   },
   {
-    title: "How to Find Reliable Packaging Suppliers in Delhi Ã¢ÂÂ Complete Guide 2026",
+    title: "How to Find Reliable Packaging Suppliers in Delhi - Complete Guide 2026",
     category: "Procurement",
     date: "June 2026",
     read: "6 min read",
@@ -26,16 +33,14 @@ const posts = [
     href: "/blog/packaging-suppliers-delhi",
   },
   {
-    title: "Amazon India Packaging Requirements 2026 Ã¢ÂÂ Complete Seller Guide",
+    title: "Amazon India Packaging Requirements 2026 - Complete Seller Guide",
     category: "E-Commerce",
     date: "June 2026",
     read: "9 min read",
-    excerpt: "Everything Amazon India sellers need to know about packaging compliance Ã¢ÂÂ box strength, labelling, polybag rules and how to avoid returns and penalties.",
+    excerpt: "Everything Amazon India sellers need to know about packaging compliance - box strength, labelling, polybag rules and how to avoid returns and penalties.",
     href: "/blog/amazon-india-packaging-requirements",
   },
 ];
-
-const categories = ["All", "GST & Compliance", "Product Guide", "Procurement", "E-Commerce"];
 
 export default function Blog() {
   return (
@@ -49,22 +54,6 @@ export default function Blog() {
             <p className="text-white/70 text-lg">
               Practical guides on packaging costs, GST, procurement and sustainability for Indian businesses.
             </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-white border-b border-gray-100 py-4 sticky top-20 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex gap-3 overflow-x-auto pb-2">
-            {categories.map((cat) => (
-              <span
-                key={cat}
-                className="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium cursor-pointer transition-all"
-                style={cat === "All" ? { backgroundColor: "#0C2448", color: "white" } : { backgroundColor: "#f3f4f6", color: "#374151" }}
-              >
-                {cat}
-              </span>
-            ))}
           </div>
         </div>
       </section>

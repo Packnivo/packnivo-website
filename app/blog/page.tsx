@@ -1,15 +1,8 @@
-﻿import type { Metadata } from "next"
-
-export const metadata: Metadata = {
-  title: "Packaging Insights Blog | Packnivo Solutions Pvt Ltd",
-  description: "Packaging tips, industry trends, and procurement advice for Indian businesses — from the Packnivo team.",
-}
-
 import Link from "next/link";
 
 const posts = [
   {
-    title: "GST on Packaging Materials in India â€” Complete Guide 2026",
+    title: "GST on Packaging Materials in India — Complete Guide 2026",
     category: "GST & Compliance",
     date: "June 2026",
     read: "8 min read",
@@ -17,7 +10,7 @@ const posts = [
     href: "/blog/gst-on-packaging-materials-india",
   },
   {
-    title: "Corrugated Box Sizes and Prices in India â€” Complete Guide 2026",
+    title: "Corrugated Box Sizes and Prices in India — Complete Guide 2026",
     category: "Product Guide",
     date: "June 2026",
     read: "7 min read",
@@ -25,7 +18,7 @@ const posts = [
     href: "/blog/corrugated-box-sizes-prices-india",
   },
   {
-    title: "How to Find Reliable Packaging Suppliers in Delhi â€” Complete Guide 2026",
+    title: "How to Find Reliable Packaging Suppliers in Delhi — Complete Guide 2026",
     category: "Procurement",
     date: "June 2026",
     read: "6 min read",
@@ -33,11 +26,11 @@ const posts = [
     href: "/blog/packaging-suppliers-delhi",
   },
   {
-    title: "Amazon India Packaging Requirements 2026 â€” Complete Seller Guide",
+    title: "Amazon India Packaging Requirements 2026 — Complete Seller Guide",
     category: "E-Commerce",
     date: "June 2026",
     read: "9 min read",
-    excerpt: "Everything Amazon India sellers need to know about packaging compliance â€” box strength, labelling, polybag rules and how to avoid returns and penalties.",
+    excerpt: "Everything Amazon India sellers need to know about packaging compliance — box strength, labelling, polybag rules and how to avoid returns and penalties.",
     href: "/blog/amazon-india-packaging-requirements",
   },
 ];

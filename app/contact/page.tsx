@@ -126,8 +126,8 @@ export default function ContactPage() {
                       <input type="text" value={form.company} onChange={e => setForm({ ...form, company: e.target.value })} placeholder="e.g. Sharma Enterprises" className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-amber-400 text-sm" />
                     </div>
                     <div>
-                      <label className="block text-xs font-medium text-gray-500 mb-2 uppercase tracking-wide">Phone Number</label>
-                      <input type="tel" value={form.phone} onChange={e => setForm({ ...form, phone: e.target.value })} placeholder="e.g. +91 98765 43210" className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-amber-400 text-sm" />
+                      <label className="block text-xs font-medium text-gray-500 mb-2 uppercase tracking-wide">Phone Number *</label>
+                      <input type="tel" required value={form.phone} onChange={e => setForm({ ...form, phone: e.target.value })} placeholder="e.g. +91 98765 43210" className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-amber-400 text-sm" />
                     </div>
                   </div>
                   <div>

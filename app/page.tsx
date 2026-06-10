@@ -19,9 +19,9 @@ const categories = [
 ];
 
 const stats = [
-  { value: "500+", label: "Products in Catalogue" },
+  { value: "60+", label: "Products in Catalogue" },
   { value: "50+", label: "Vendor Partners" },
-  { value: "10,000+", label: "Client Capacity" },
+  { value: "5 Min", label: "Response Time" },
   { value: "Pan India", label: "Delivery Coverage" },
 ];
 

@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-white/60 text-sm">© 2025 Packnivo Solutions Pvt Ltd. All rights reserved.</p>
+          <p className="text-white/60 text-sm">© 2026 Packnivo Solutions Pvt Ltd. All rights reserved.</p>
           <div className="flex flex-col md:flex-row gap-4 text-white/60 text-xs text-center">
             <span>CIN: U82920DC2026PTC471889</span>
             <span>GSTIN: 07AARCP1239N1ZU</span>

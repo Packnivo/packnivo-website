@@ -1,28 +1,28 @@
 import Link from "next/link";
 
 const solutions = [
-  { name: "PackTrade", icon: "ðŸ”„", description: "Trading, buying, selling, importing and exporting packaging materials at the best prices." },
-  { name: "PackServe", icon: "âš™ï¸", description: "End-to-end packaging execution â€” from sourcing to final delivery at your doorstep." },
-  { name: "PackAdvise", icon: "ðŸ’¡", description: "Expert consultancy on packaging design, cost reduction and sustainability strategies." },
-  { name: "PackCommerce", icon: "ðŸ›’", description: "B2B, B2C and e-commerce packaging solutions tailored for your business model." },
-  { name: "PackMake", icon: "ðŸ­", description: "Manufacturing collaboration â€” we connect you with the right production partners." },
-  { name: "PackBridge", icon: "ðŸ¤", description: "Agency, broker and partner network for cross-border and specialty packaging needs." },
+  { name: "PackTrade", icon: "PT", description: "Trading, buying, selling, importing and exporting packaging materials at the best prices." },
+  { name: "PackServe", icon: "PS", description: "End-to-end packaging execution from sourcing to final delivery at your doorstep." },
+  { name: "PackAdvise", icon: "PA", description: "Expert consultancy on packaging design, cost reduction and sustainability strategies." },
+  { name: "PackCommerce", icon: "PC", description: "B2B, B2C and e-commerce packaging solutions tailored for your business model." },
+  { name: "PackMake", icon: "PM", description: "Manufacturing collaboration. We connect you with the right production partners." },
+  { name: "PackBridge", icon: "PB", description: "Agency, broker and partner network for cross-border and specialty packaging needs." },
 ];
 
 const categories = [
-  { name: "Corrugated Boxes", count: "12 Products", icon: "ðŸ“¦" },
-  { name: "Flexible Packaging", count: "10 Products", icon: "ðŸŽ" },
-  { name: "Rigid Packaging", count: "8 Products", icon: "ðŸº" },
-  { name: "Industrial Packaging", count: "9 Products", icon: "ðŸ”§" },
-  { name: "Eco-Friendly", count: "7 Products", icon: "ðŸŒ¿" },
-  { name: "Custom Packaging", count: "14 Products", icon: "âœ¨" },
+  { name: "Corrugated Boxes", count: "12 Products" },
+  { name: "Flexible Packaging", count: "10 Products" },
+  { name: "Rigid Packaging", count: "8 Products" },
+  { name: "Industrial Packaging", count: "9 Products" },
+  { name: "Eco-Friendly", count: "7 Products" },
+  { name: "Custom Packaging", count: "14 Products" },
 ];
 
 const stats = [
   { value: "60+", label: "Products in Catalogue" },
   { value: "50+", label: "Vendor Partners" },
-  { value: "5 Min", label: "Response Time" },
   { value: "Pan India", label: "Delivery Coverage" },
+  { value: "5 Min", label: "Response Time" },
 ];
 
 const whyUs = [
@@ -51,7 +51,7 @@ export default function Home() {
               <span style={{ color: "#C08430" }}>Business Forward</span>
             </h1>
             <p className="text-white/70 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl">
-              Packnivo sits between you and your packaging vendors â€” sourcing, negotiating, executing and delivering so you can focus on your core business.
+              Packnivo sits between you and your packaging vendors. Sourcing, negotiating, executing and delivering so you can focus on your core business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/catalogue" className="px-8 py-4 rounded-xl font-semibold text-base text-center text-white transition-all hover:opacity-90" style={{ backgroundColor: "#C08430" }}>
@@ -84,12 +84,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#0C2448", fontFamily: "Fraunces, serif" }}>Six Solutions. One Partner.</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Every packaging need your business has â€” we have built a dedicated solution for it.</p>
+            <p className="text-gray-600 max-w-2xl mx-auto">Every packaging need your business has. We have built a dedicated solution for it.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {solutions.map((solution) => (
               <div key={solution.name} className="bg-white rounded-2xl p-8 border border-gray-100 hover:shadow-lg transition-shadow duration-300">
-                <div className="text-3xl mb-4">{solution.icon}</div>
+                <div className="w-10 h-10 rounded-xl flex items-center justify-center text-white text-sm font-bold mb-4" style={{ backgroundColor: "#0C2448" }}>{solution.icon}</div>
                 <h3 className="text-lg font-bold mb-3" style={{ color: "#0C2448", fontFamily: "Fraunces, serif" }}>{solution.name}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{solution.description}</p>
                 <div className="mt-6 flex items-center gap-2 text-sm font-medium" style={{ color: "#C08430" }}>
@@ -114,7 +114,6 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {categories.map((cat) => (
               <Link key={cat.name} href="/catalogue" className="flex flex-col items-center p-6 rounded-2xl border border-gray-100 hover:border-amber-300 hover:shadow-md transition-all duration-300 text-center">
-                <span className="text-3xl mb-3">{cat.icon}</span>
                 <h3 className="text-sm font-semibold mb-1" style={{ color: "#0C2448" }}>{cat.name}</h3>
                 <span className="text-xs text-gray-400">{cat.count}</span>
               </Link>
@@ -141,7 +140,7 @@ export default function Home() {
                 <span style={{ color: "#C08430" }}>20%</span>
               </h2>
               <p className="text-white/70 mb-8 leading-relaxed">
-                Send us your last packaging invoice. We will find you a better price â€” or tell you honestly that you are getting a good deal.
+                Send us your last packaging invoice. We will find you a better price, or tell you honestly that you are getting a good deal.
               </p>
               <Link href="/contact" className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-white transition-all hover:opacity-90" style={{ backgroundColor: "#C08430" }}>
                 Send Your Invoice

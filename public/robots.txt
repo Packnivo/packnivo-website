@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://packnivo.com
+
+# Sitemaps
+Sitemap: https://packnivo.com/sitemap.xml

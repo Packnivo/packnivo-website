@@ -1,8 +1,8 @@
-import type { Metadata } from "next"
+﻿import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "About Us | Packnivo Solutions Pvt Ltd",
-  description: "Learn about Packnivo � India's trusted B2B packaging intermediary. Meet our mission, values, and the team connecting businesses with verified packaging suppliers pan India.",
+  description: "Learn about Packnivo — India's trusted B2B packaging intermediary. Meet our mission, values, and the team connecting businesses with verified packaging suppliers pan India.",
 }
 
 import Link from "next/link";
@@ -10,21 +10,21 @@ import Link from "next/link";
 const values = [
   { title: "Honest", desc: "If you are getting a good price from your current supplier, we will tell you. We only work with you if we can genuinely add value." },
   { title: "Transparent", desc: "No hidden charges. No surprise fees. Every cost is broken down clearly before you commit to any order." },
-  { title: "Reliable", desc: "We reply within 5 minutes. We deliver on time. We do what we say we will do — every single time." },
+  { title: "Reliable", desc: "We reply within 5 minutes. We deliver on time. We do what we say we will do â€” every single time." },
   { title: "Expert", desc: "Packaging is all we do. That focus means we know more about packaging markets, prices and materials than generalist suppliers." },
 ];
 
 const team = [
-  { name: "Founder", role: "Packnivo Solutions Pvt Ltd", desc: "Built Packnivo from the ground up to solve a real problem — Indian businesses overpaying for packaging because they lack market information and vendor access." },
+  { name: "Founder", role: "Packnivo Solutions Pvt Ltd", desc: "Built Packnivo from the ground up to solve a real problem â€” Indian businesses overpaying for packaging because they lack market information and vendor access." },
 ];
 
 const milestones = [
   { year: "Before 2026", event: "Key members of our team built strong relationships across India's packaging ecosystem, connecting with manufacturers, converters, suppliers and service providers across multiple packaging categories." },
   { year: "Before 2026", event: "A reliable vendor network was established across corrugated, flexible, rigid and customized packaging solutions, creating the foundation for a trusted sourcing ecosystem." },
   { year: "May 2026", event: "Packnivo Solutions Pvt Ltd was incorporated in New Delhi with a vision to simplify packaging procurement and supply-chain management for businesses across India." },
-  { year: "2026", event: "Six specialized solution verticals introduced — PackTrade, PackServe, PackAdvise, PackCommerce, PackMake and PackBridge." },
+  { year: "2026", event: "Six specialized solution verticals introduced â€” PackTrade, PackServe, PackAdvise, PackCommerce, PackMake and PackBridge." },
   { year: "2026", event: "Digital platform launched to streamline packaging sourcing, supplier discovery, consultation and business operations." },
-  { year: "2026–2027", event: "Expanding our supplier network and customer base to serve businesses across India with reliable, transparent and cost-effective packaging solutions." },
+  { year: "2026â€“2027", event: "Expanding our supplier network and customer base to serve businesses across India with reliable, transparent and cost-effective packaging solutions." },
   { year: "Our Goal", event: "Become India's most trusted packaging ecosystem, connecting brands, manufacturers and service providers through a single technology-driven platform." },
 ];
 
@@ -39,7 +39,7 @@ export default function About() {
               About Packnivo
             </h1>
             <p className="text-white/70 text-lg">
-              We built Packnivo because Indian businesses deserve better packaging partners — ones that are honest, expert and genuinely on their side.
+              We built Packnivo because Indian businesses deserve better packaging partners â€” ones that are honest, expert and genuinely on their side.
             </p>
           </div>
         </div>
@@ -57,7 +57,7 @@ export default function About() {
                 Most businesses in India have no idea if they are getting a fair price for their packaging. They have one or two suppliers, no benchmark data, and no time to go looking for better options.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Packnivo sits in the middle — between businesses and packaging manufacturers. We have the vendor relationships, the market data and the expertise to get our clients better packaging at better prices.
+                Packnivo sits in the middle â€” between businesses and packaging manufacturers. We have the vendor relationships, the market data and the expertise to get our clients better packaging at better prices.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Our model is simple. We save you money on packaging. In return, you give us your packaging business. Everyone wins.
